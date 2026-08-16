@@ -1,0 +1,19 @@
+[project]
+name = "minecraft-composting-success-predictor"
+version = "0.1.0"
+description = "EDA notebook for the Minecraft composting success-prediction dataset (ML elective, Assignment 1)"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "nbconvert>=7.17.1",
+    "nbformat>=5.11.0",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "scipy>=1.18.0",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv]
+package = false
