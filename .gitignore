@@ -7,5 +7,10 @@ build_dataset.py
 
 *.md
 *assets
+asignaciones/
+ia_log/
 
-# Pull Request
+# Derived datasets (rebuilt by the notebooks from the 16 raw files; not part of the deliverable)
+data/composting_combined.csv
+data/composting_features.csv
+data/composting_attempts.csv
