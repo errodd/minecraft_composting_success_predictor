@@ -1,0 +1,46 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "split_unit": "session",
+  "stratify": "material",
+  "target_column": "level_increased",
+  "expansion_seeds": {
+    "train": 42,
+    "test": 43
+  },
+  "successes_required": 7,
+  "sugar_cane_anomaly": {
+    "material": "Sugar Cane",
+    "first_trial_id": 339,
+    "last_trial_id": 398
+  },
+  "n_sessions": {
+    "train": 38400,
+    "test": 9600
+  },
+  "n_attempts": {
+    "train": 555828,
+    "test": 139595
+  },
+  "attempts_sha256": {
+    "train": "3dee1f9937473e7f94116f20a4c2efb092e52cd5a21a33ed5c477cb3afa8dbc5",
+    "test": "dfd745a3cd9b4972178f0a27c3ae0a68246939f41c93d762e7d3f9b968b0062e"
+  },
+  "baseline_representation": "material",
+  "experimental_representations": [
+    "tier",
+    "chance"
+  ],
+  "target_encoding": {
+    "out_of_fold": true,
+    "folds": 5,
+    "grouped_by": "session_id"
+  },
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit_learn": "1.9.1"
+  },
+  "test_note": "The EDA examined all 48,000 sessions before the split, so the test set is useful to check the workflow but is not a fully independent final test."
+}
