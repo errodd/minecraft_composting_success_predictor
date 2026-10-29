@@ -42,7 +42,7 @@ uv run jupyter nbconvert --to notebook --execute --inplace notebooks/02_data_pre
 uv run jupyter nbconvert --to notebook --execute --inplace notebooks/03_modeling_and_model_selection.ipynb
 ```
 
-El notebook 03 tarda unos 40–45 minutos en ejecutarse completo (la mayor parte es la búsqueda de hiperparámetros con
+El notebook 03 tarda unos 30–45 minutos en ejecutarse completo (la mayor parte es la búsqueda de hiperparámetros con
 Optuna); el 02 tarda menos de un minuto.
 
 Si aparece `ModuleNotFoundError` (por ejemplo, `No module named 'sklearn'`), el kernel no es el de `.venv`:
