@@ -1,7 +1,7 @@
 [project]
 name = "minecraft-composting-success-predictor"
 version = "0.1.0"
-description = "EDA notebook for the Minecraft composting success-prediction dataset (ML elective, Assignment 1)"
+description = "Minecraft composting success predictor: EDA, data preparation and model selection (ML elective)"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=7.3.0",
@@ -10,6 +10,7 @@ dependencies = [
     "nbconvert>=7.17.1",
     "nbformat>=5.11.0",
     "numpy>=2.5.2",
+    "optuna>=5.0.0",
     "pandas>=3.0.5",
     "scikit-learn>=1.9.1",
     "scipy>=1.18.0",
